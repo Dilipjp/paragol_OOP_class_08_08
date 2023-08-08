@@ -57,7 +57,7 @@ public class Vehicle {
 
 	}
 
-	public void setNumOfDoors(int nd)
+	final public void setNumOfDoors(int nd) // this method can't override
 
 	{
 
